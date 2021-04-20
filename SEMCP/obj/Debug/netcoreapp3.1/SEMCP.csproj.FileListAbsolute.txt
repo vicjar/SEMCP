@@ -1,0 +1,16 @@
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.exe
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.deps.json
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.runtimeconfig.json
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.runtimeconfig.dev.json
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\SEMCP.pdb
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csprojAssemblyReference.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Properties.Resources.resources
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csproj.GenerateResource.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.AssemblyInfoInputs.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.AssemblyInfo.cs
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csproj.CoreCompileInputs.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.pdb
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.genruntimeconfig.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form1.resources

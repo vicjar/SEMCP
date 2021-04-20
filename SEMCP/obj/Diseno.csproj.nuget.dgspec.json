@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Diseno\\Diseno.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Diseno\\Diseno.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Diseno\\Diseno.csproj",
+        "projectName": "Diseno",
+        "projectPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Diseno\\Diseno.csproj",
+        "packagesPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Diseno\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\simon.csproj": {
+                "projectPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\simon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\simon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\simon.csproj",
+        "projectName": "simon",
+        "projectPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\simon.csproj",
+        "packagesPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Prueba\\Prueba\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

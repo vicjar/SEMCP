@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Diseno/1.0.0": {
+        "dependencies": {
+          "simon": "1.0.0"
+        },
+        "runtime": {
+          "Diseno.dll": {}
+        }
+      },
+      "simon/1.0.0": {
+        "runtime": {
+          "simon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Diseno/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "simon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
