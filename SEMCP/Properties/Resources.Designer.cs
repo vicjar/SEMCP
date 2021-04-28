@@ -89,5 +89,95 @@ namespace SEMCP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        internal static System.Drawing.Bitmap home
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap stats
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("stats", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap profile
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap shut_down
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("shut_down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap logobeta
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("logobeta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap account_circle
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("account_circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap baseline_style_black_48dp
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("baseline_style_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap baseline_category_black_48dp
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("baseline_category_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap close
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap minus
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("minus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
