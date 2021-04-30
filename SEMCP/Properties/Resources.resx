@@ -169,4 +169,37 @@
   <data name="gradient (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="carta_circulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_circulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_corazon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_cuadrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_cuadrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_e4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_e4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_engarne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_engarne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_estrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_estrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_pentagono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_pentagono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_rombo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_rombo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_triangulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_triangulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_volteada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_volteada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

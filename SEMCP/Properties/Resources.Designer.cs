@@ -188,5 +188,109 @@ namespace SEMCP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+
+        /// Imagenes de Memorama
+
+        internal static System.Drawing.Bitmap carta_volteada
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_volteada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_circulo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_circulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_engarne
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_engarne", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_x
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_e4
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_e4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_estrella
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_estrella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_corazon
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_corazon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_triangulo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_triangulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_rombo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_rombo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_pentagono
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_pentagono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_cuadrado
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_cuadrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// -------------------------------------------> Fin- Memorama
     }
 }
