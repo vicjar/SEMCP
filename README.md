@@ -1,6 +1,6 @@
 # SEMCP
 
-#Modulo de la ejercicio de la Serie de numeros.
+#Modulo para el ejercicio de la Serie de numeros.
 
 ##Sistema de entrenamiento de memoria de corto plazo
 
