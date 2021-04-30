@@ -1,5 +1,7 @@
 # SEMCP
 
+#Modulo de la ejercicio de la lista de articulos
+
 ##Sistema de entrenamiento de memoria de corto plazo
 
 ###Enlace de la documentacion
