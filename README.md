@@ -1,5 +1,7 @@
 # SEMCP
 
+#Modulo de Memorama
+
 ##Sistema de entrenamiento de memoria de corto plazo
 
 ###Enlace de la documentacion
