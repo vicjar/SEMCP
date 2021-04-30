@@ -180,7 +180,7 @@ namespace SEMCP
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::SEMCP.Properties.Resources.gradient;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.bc5);
@@ -216,7 +216,7 @@ namespace SEMCP
             // 
             // bc6
             // 
-            this.bc6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bc6.BackgroundImage")));
+            this.bc6.BackgroundImage = global::SEMCP.Properties.Resources.gradient;
             this.bc6.Controls.Add(this.pictureBox1);
             this.bc6.Controls.Add(this.label2);
             this.bc6.Controls.Add(this.label1);
