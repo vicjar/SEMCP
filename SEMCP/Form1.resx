@@ -63,55 +63,8 @@
   <data name="label12.Text" xml:space="preserve">
     <value>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</value>
   </data>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABGdBTUEAALGPC/xhBQAAA4tJREFUeF7t
-        2M1tFUEURGGzYMeaBAiBGEiCMIiDMIiCGMiABFizY4GgW/JDlinbz+N7a2a6zicdCfmvxdVb1Q0AAAAA
-        AAAAAAAAAAAAAAAavRp9vm3+G7ja69GX0Z/b5r/n14AnvRl9HV0+PJfm1+b3gAe9HX0b3f/wXJrfmz8D
-        /Ofd6PtIfXDuNn9m/izwz/vRj5H6wKjmz87fAW4+jH6O1AflsebvzN9FsI+jXyP1Abmm+bvzbyDQp9Hv
-        kfpgPKf5N+bfQojLQKg+DC+JwTHA/YGwOgbHhT00EFbH4LigpwbC6hgcF3LtQFgdg+MCnjsQVsfgeGJb
-        B8LqGBxP6KUDYXUMjidSNRBWx+B4cF0DYXUMjgfUPRBWx+B4IK6BsDoGxwNwD4TVMTjuaK+BsDoGxx3s
-        PRBWx+BodJSBsDoGR4OjDYTVMTg2OupAWB2DY7GzDITVMTgWONtAWB2D4wucdSCsjsFxg7MPhNUxOD7D
-        KgNhdQyOV1htIKyOwfERqw6E1TE4CqsPhNUxON6RMhBWFz84pg6E1UUOjukDYXVRgyMDYU8RgyMDYW9L
-        D44MhJ6WHBwZCL0tNTgyEO7TEoMjA+G+nXpwZCA8RqcbHBkIj9kpBkcGwmN36MGRgfAcHXJwZCA8V4ca
-        HBkIz9khBkcGwnO36+DIQLhGuwyODIRrZR0cGQjX7HSDo/pP0PbiqCPQ9uKoI9D24qgj0PbiqCPQ9uKo
-        I9D24qgj0PbiqCPQ9uKoI9D24qgj0PbiqCPQ9uKoI9D24qgjOOqm3nQURx3BUTf1pqM46giOuqk3HcVR
-        R3DUTb3pKI46gqNu6k1HcdQRHHVTbzqKo47gqJt601EcdQRH3dSbjuKoIzjqpt50FEcdwVE39aajOOoI
-        jrqpNx3FUUdw1E296SiOOoKjbupNR3HUERx1U286iqOO4KibetNRHHUER93Um47iqCM46qbedBRHHcFR
-        N/WmozjqCI66qTcdxVFHcNRNvekojjqCo27qTUdx1BEcdVNvOoqjjuCom3rTURx1BEfd1JuO4qgjOOqm
-        3nQURx3BUTf1pqM46giOuqk3HcVRR3DUTb3pKI46gqNu6k1HcdQRHHVTbzqKo47gqJt601EcdQRH3dSb
-        juKoIzjqpt50FEcdwVE39aajOOoIjrqpNx3FUUdw1E296QgAAAAAAAAAAAAAAAAAAAAAAAAAgCfc3PwF
-        nEvwDVcljYgAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</value>
-  </data>
-  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAABJdJREFUeF7t
-        3VuobVMcx/Hl4BzklFI6pZAHl+P6oDwoRSkP3jwo5YE8eHAnco5rUUoUueRBKUl5UJKixIMid0IpRSmS
-        SyH33L6/7JFp9dt7jnkZY+515v9Xn1rtNceYc42953+vOdeYcy0ikUgkEolEIpFIZEVyGB7BJ2v0+AhE
-        KuRIfIW/l3yDoxEpmC14BcuDn7yBfRAplGvhBr5pNyIFcgx+gRv0pl9xPCIjZm+8CjfgzpuIUjRiroMb
-        6I1EKRopxyKn9Cz7DScgMiAqPa/BDXCOKEUDcz3cwHZxIyI9shN6R+MGNfl0jXsuUSk6EZEOUel5HW5A
-        kz9xxho9dsskbyFKUYfcADeQTfciRY/dMk03IZKR49BWej7C/kjRY/3MLZtEKcqIyoTO57gBTP7AqViO
-        fqbnXJvkbeyLyDrZBTdwTXdgveg516bpZkRMdP6mrfS8i61YL3pOy7i2iUrRSYg0otKjgyY3YEluDdcy
-        Wtb1kUQpWooOltxANak85SanlN2CCMn5i9WZUB0b5Cbn7GmUIqIyoIMkN0DJTzgKXaM2auv6TN7BrEuR
-        3pG4gWm6HH2jtq7PptmWIu3+baXnReyFvlFb9eH6Tn7HyZhVtNvrnYgbkOR7HI6hUR/qy60jmV0p0m7v
-        BqLpIowV9eXW0XQrZhHt7trt3SAkz2DsqE+3rmQWpUi7eduRqiZY7cDYUZ/q260z0bbt0aXoNrgX3nQe
-        SkV9u3U2aRsnz6F4HF/AbWTIpzHUWGpMs6IF23bV0J3GNOuXoN+W6yAMp7FtzedwjcNwGtvWRPkpRweE
-        rXkernEY7mW05hq4xmG4rJkZmk/pGofh3GQCm/hHPL5vkf2h0qNwnYT+nkR2zofrJPR3MbJzCNrmW4Zu
-        On+20fZZbcinaZOdcydcZ6G7+9A5Z8J1Fro7B52zDT/CdRjyaeLBgeiVZ+E6ndKHuAq6gkYvTPRYP9Nz
-        rs2UXkLvXAHX6RT0me1l2OhgRs9pmbbPnGvSxSa9o0tEXae1aTc+C7nRsm1zjmo5BYPyGVzHNfWZHZcz
-        K660r6EbjAyK7sXjOq9Fdb3LxNwUtZn6f8ITGJycmQQlXYm+UVvXZy0XYnAORtu1VyXpor2+UVvXZw1/
-        IXsmRFvartktaTv6Rm1dnzV8gNFyO9xKaljVX8A9GC2nw62khlUtQWdjtGi+5A9wKyptFf8J6/Y6B2DU
-        PA23stJW8W3oCxg9l8KtrIZVOxDTHb5Gjy56cyurYdVORRS7zqDt3jwlrcrJuC8x5Lq2DfMw3EprUl3f
-        zKejH0OxnAu30vCfC1AsB2HK0xKbnU4/lLi86n/Z6N7Nc/ceikeXc7qVh8XiLhTPaXArD93eKveO7u3z
-        HdwGzNnP2A9V8hTcRszZc6iWS+A2Ys6uRrXoa0TcRsxZ9e8s+BhuQ+Yo6+rHsXM33MbM0UOoHp1/iaPi
-        f6+jmOzec5p27TZqTh7EZNGNUvXpj9uwOdDt0DSLfNJoA+7HnC5p0km3BzD54Dejt2H6RbyPPt/5stnp
-        Nem16TXG12RFIpFIJBKJRCKRSCQSiUQ6ZrH4B8eFPNOQm9NPAAAAAElFTkSuQmCC
-</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</value>

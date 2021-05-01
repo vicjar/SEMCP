@@ -188,5 +188,15 @@ namespace SEMCP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        internal static System.Drawing.Bitmap baseline_shopping_basket_black_48dp
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("baseline_shopping_basket_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
     }
 }
