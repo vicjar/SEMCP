@@ -363,7 +363,7 @@ namespace SEMCP
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Image = global::SEMCP.Properties.Resources.baseline_home_black_48dp;
             this.pictureBox9.Location = new System.Drawing.Point(37, 29);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(79, 79);
@@ -407,7 +407,7 @@ namespace SEMCP
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Image = global::SEMCP.Properties.Resources.baseline_shopping_basket_black_48dp;
             this.pictureBox7.Location = new System.Drawing.Point(27, 32);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(79, 79);
