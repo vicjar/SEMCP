@@ -4,7 +4,13 @@
     <Compile Update="BC.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="CustomCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_LA.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
