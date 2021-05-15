@@ -30,7 +30,6 @@ namespace SEMCP
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_M));
             this.Panel_T = new System.Windows.Forms.Panel();
             this.casilla16 = new SEMCP.Casilla();
             this.casilla17 = new SEMCP.Casilla();
@@ -115,9 +114,9 @@ namespace SEMCP
             this.Panel_T.Controls.Add(this.casilla3);
             this.Panel_T.Controls.Add(this.casilla2);
             this.Panel_T.Controls.Add(this.casilla1);
-            this.Panel_T.Location = new System.Drawing.Point(430, 12);
+            this.Panel_T.Location = new System.Drawing.Point(430, 19);
             this.Panel_T.Name = "Panel_T";
-            this.Panel_T.Size = new System.Drawing.Size(488, 446);
+            this.Panel_T.Size = new System.Drawing.Size(488, 430);
             this.Panel_T.TabIndex = 28;
             // 
             // casilla16
@@ -126,7 +125,7 @@ namespace SEMCP
             this.casilla16.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla16.Centro = null;
             this.casilla16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla16.Location = new System.Drawing.Point(388, 336);
+            this.casilla16.Location = new System.Drawing.Point(388, 325);
             this.casilla16.Name = "casilla16";
             this.casilla16.Size = new System.Drawing.Size(88, 103);
             this.casilla16.TabIndex = 38;
@@ -138,7 +137,7 @@ namespace SEMCP
             this.casilla17.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla17.Centro = null;
             this.casilla17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla17.Location = new System.Drawing.Point(294, 336);
+            this.casilla17.Location = new System.Drawing.Point(294, 325);
             this.casilla17.Name = "casilla17";
             this.casilla17.Size = new System.Drawing.Size(88, 103);
             this.casilla17.TabIndex = 37;
@@ -150,7 +149,7 @@ namespace SEMCP
             this.casilla18.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla18.Centro = null;
             this.casilla18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla18.Location = new System.Drawing.Point(200, 336);
+            this.casilla18.Location = new System.Drawing.Point(200, 325);
             this.casilla18.Name = "casilla18";
             this.casilla18.Size = new System.Drawing.Size(88, 103);
             this.casilla18.TabIndex = 36;
@@ -162,7 +161,7 @@ namespace SEMCP
             this.casilla19.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla19.Centro = null;
             this.casilla19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla19.Location = new System.Drawing.Point(106, 336);
+            this.casilla19.Location = new System.Drawing.Point(106, 325);
             this.casilla19.Name = "casilla19";
             this.casilla19.Size = new System.Drawing.Size(88, 103);
             this.casilla19.TabIndex = 35;
@@ -174,7 +173,7 @@ namespace SEMCP
             this.casilla20.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla20.Centro = null;
             this.casilla20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla20.Location = new System.Drawing.Point(12, 336);
+            this.casilla20.Location = new System.Drawing.Point(12, 325);
             this.casilla20.Name = "casilla20";
             this.casilla20.Size = new System.Drawing.Size(88, 103);
             this.casilla20.TabIndex = 34;
@@ -186,7 +185,7 @@ namespace SEMCP
             this.casilla11.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla11.Centro = null;
             this.casilla11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla11.Location = new System.Drawing.Point(388, 227);
+            this.casilla11.Location = new System.Drawing.Point(388, 216);
             this.casilla11.Name = "casilla11";
             this.casilla11.Size = new System.Drawing.Size(88, 103);
             this.casilla11.TabIndex = 33;
@@ -198,7 +197,7 @@ namespace SEMCP
             this.casilla12.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla12.Centro = null;
             this.casilla12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla12.Location = new System.Drawing.Point(294, 227);
+            this.casilla12.Location = new System.Drawing.Point(294, 216);
             this.casilla12.Name = "casilla12";
             this.casilla12.Size = new System.Drawing.Size(88, 103);
             this.casilla12.TabIndex = 32;
@@ -210,7 +209,7 @@ namespace SEMCP
             this.casilla6.BackgroundImage = global::SEMCP.Properties.Resources.carta_circulo;
             this.casilla6.Centro = null;
             this.casilla6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla6.Location = new System.Drawing.Point(388, 118);
+            this.casilla6.Location = new System.Drawing.Point(388, 107);
             this.casilla6.Name = "casilla6";
             this.casilla6.Size = new System.Drawing.Size(88, 103);
             this.casilla6.TabIndex = 29;
@@ -222,7 +221,7 @@ namespace SEMCP
             this.casilla13.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla13.Centro = null;
             this.casilla13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla13.Location = new System.Drawing.Point(200, 227);
+            this.casilla13.Location = new System.Drawing.Point(200, 216);
             this.casilla13.Name = "casilla13";
             this.casilla13.Size = new System.Drawing.Size(88, 103);
             this.casilla13.TabIndex = 31;
@@ -234,7 +233,7 @@ namespace SEMCP
             this.casilla7.BackgroundImage = global::SEMCP.Properties.Resources.carta_engarne;
             this.casilla7.Centro = null;
             this.casilla7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla7.Location = new System.Drawing.Point(294, 118);
+            this.casilla7.Location = new System.Drawing.Point(294, 107);
             this.casilla7.Name = "casilla7";
             this.casilla7.Size = new System.Drawing.Size(88, 103);
             this.casilla7.TabIndex = 28;
@@ -246,7 +245,7 @@ namespace SEMCP
             this.casilla14.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla14.Centro = null;
             this.casilla14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla14.Location = new System.Drawing.Point(106, 227);
+            this.casilla14.Location = new System.Drawing.Point(106, 216);
             this.casilla14.Name = "casilla14";
             this.casilla14.Size = new System.Drawing.Size(88, 103);
             this.casilla14.TabIndex = 30;
@@ -258,7 +257,7 @@ namespace SEMCP
             this.casilla8.BackgroundImage = global::SEMCP.Properties.Resources.carta_e4;
             this.casilla8.Centro = null;
             this.casilla8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla8.Location = new System.Drawing.Point(200, 118);
+            this.casilla8.Location = new System.Drawing.Point(200, 107);
             this.casilla8.Name = "casilla8";
             this.casilla8.Size = new System.Drawing.Size(88, 103);
             this.casilla8.TabIndex = 27;
@@ -270,7 +269,7 @@ namespace SEMCP
             this.casilla15.BackgroundImage = global::SEMCP.Properties.Resources.carta_volteada;
             this.casilla15.Centro = null;
             this.casilla15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla15.Location = new System.Drawing.Point(12, 227);
+            this.casilla15.Location = new System.Drawing.Point(12, 216);
             this.casilla15.Name = "casilla15";
             this.casilla15.Size = new System.Drawing.Size(88, 103);
             this.casilla15.TabIndex = 29;
@@ -282,7 +281,7 @@ namespace SEMCP
             this.casilla9.BackgroundImage = global::SEMCP.Properties.Resources.carta_triangulo;
             this.casilla9.Centro = null;
             this.casilla9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla9.Location = new System.Drawing.Point(106, 118);
+            this.casilla9.Location = new System.Drawing.Point(106, 107);
             this.casilla9.Name = "casilla9";
             this.casilla9.Size = new System.Drawing.Size(88, 103);
             this.casilla9.TabIndex = 26;
@@ -294,7 +293,7 @@ namespace SEMCP
             this.casilla10.BackgroundImage = global::SEMCP.Properties.Resources.carta_estrella;
             this.casilla10.Centro = null;
             this.casilla10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla10.Location = new System.Drawing.Point(12, 118);
+            this.casilla10.Location = new System.Drawing.Point(12, 107);
             this.casilla10.Name = "casilla10";
             this.casilla10.Size = new System.Drawing.Size(88, 103);
             this.casilla10.TabIndex = 25;
@@ -306,7 +305,7 @@ namespace SEMCP
             this.casilla5.BackgroundImage = global::SEMCP.Properties.Resources.carta_x;
             this.casilla5.Centro = null;
             this.casilla5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla5.Location = new System.Drawing.Point(388, 9);
+            this.casilla5.Location = new System.Drawing.Point(388, 0);
             this.casilla5.Name = "casilla5";
             this.casilla5.Size = new System.Drawing.Size(88, 103);
             this.casilla5.TabIndex = 24;
@@ -319,7 +318,7 @@ namespace SEMCP
             this.casilla4.BackgroundImage = global::SEMCP.Properties.Resources.carta_pentagono;
             this.casilla4.Centro = null;
             this.casilla4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla4.Location = new System.Drawing.Point(294, 9);
+            this.casilla4.Location = new System.Drawing.Point(294, 0);
             this.casilla4.Name = "casilla4";
             this.casilla4.Size = new System.Drawing.Size(88, 103);
             this.casilla4.TabIndex = 23;
@@ -331,7 +330,7 @@ namespace SEMCP
             this.casilla3.BackgroundImage = global::SEMCP.Properties.Resources.carta_cuadrado;
             this.casilla3.Centro = null;
             this.casilla3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla3.Location = new System.Drawing.Point(200, 9);
+            this.casilla3.Location = new System.Drawing.Point(200, 0);
             this.casilla3.Name = "casilla3";
             this.casilla3.Size = new System.Drawing.Size(88, 103);
             this.casilla3.TabIndex = 22;
@@ -343,7 +342,7 @@ namespace SEMCP
             this.casilla2.BackgroundImage = global::SEMCP.Properties.Resources.carta_corazon;
             this.casilla2.Centro = null;
             this.casilla2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla2.Location = new System.Drawing.Point(106, 9);
+            this.casilla2.Location = new System.Drawing.Point(106, 0);
             this.casilla2.Name = "casilla2";
             this.casilla2.Size = new System.Drawing.Size(88, 103);
             this.casilla2.TabIndex = 21;
@@ -355,7 +354,7 @@ namespace SEMCP
             this.casilla1.BackgroundImage = global::SEMCP.Properties.Resources.carta_rombo;
             this.casilla1.Centro = null;
             this.casilla1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.casilla1.Location = new System.Drawing.Point(12, 9);
+            this.casilla1.Location = new System.Drawing.Point(12, 0);
             this.casilla1.Name = "casilla1";
             this.casilla1.Size = new System.Drawing.Size(88, 103);
             this.casilla1.TabIndex = 20;
@@ -364,9 +363,9 @@ namespace SEMCP
             // labelinfo2
             // 
             this.labelinfo2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelinfo2.Location = new System.Drawing.Point(53, 21);
+            this.labelinfo2.Location = new System.Drawing.Point(52, 78);
             this.labelinfo2.Name = "labelinfo2";
-            this.labelinfo2.Size = new System.Drawing.Size(353, 80);
+            this.labelinfo2.Size = new System.Drawing.Size(353, 72);
             this.labelinfo2.TabIndex = 29;
             this.labelinfo2.Text = "Haz lo posible para poder memorizar las cartas que reveles, ya que nos contara el" +
     " numero de intentos.";
@@ -376,7 +375,7 @@ namespace SEMCP
             // 
             this.LabelN.AutoSize = true;
             this.LabelN.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.LabelN.Location = new System.Drawing.Point(151, 156);
+            this.LabelN.Location = new System.Drawing.Point(150, 200);
             this.LabelN.Name = "LabelN";
             this.LabelN.Size = new System.Drawing.Size(179, 23);
             this.LabelN.TabIndex = 30;
@@ -386,7 +385,7 @@ namespace SEMCP
             // 
             this.label_intentos.AutoSize = true;
             this.label_intentos.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label_intentos.Location = new System.Drawing.Point(226, 200);
+            this.label_intentos.Location = new System.Drawing.Point(225, 240);
             this.label_intentos.Name = "label_intentos";
             this.label_intentos.Size = new System.Drawing.Size(30, 33);
             this.label_intentos.TabIndex = 31;
@@ -398,38 +397,45 @@ namespace SEMCP
             this.Panel_I.Controls.Add(this.labelInfo);
             this.Panel_I.Controls.Add(this.Label_Titulo);
             this.Panel_I.Controls.Add(this.pictureBox1);
-            this.Panel_I.Location = new System.Drawing.Point(12, 12);
+            this.Panel_I.Location = new System.Drawing.Point(12, 11);
             this.Panel_I.Name = "Panel_I";
-            this.Panel_I.Size = new System.Drawing.Size(906, 446);
+            this.Panel_I.Size = new System.Drawing.Size(906, 447);
             this.Panel_I.TabIndex = 32;
             // 
             // ButtonJugar
             // 
-            this.ButtonJugar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ButtonJugar.Location = new System.Drawing.Point(374, 336);
+            this.ButtonJugar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ButtonJugar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonJugar.FlatAppearance.BorderSize = 0;
+            this.ButtonJugar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonJugar.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonJugar.ForeColor = System.Drawing.Color.White;
+            this.ButtonJugar.Location = new System.Drawing.Point(374, 304);
             this.ButtonJugar.Name = "ButtonJugar";
-            this.ButtonJugar.Size = new System.Drawing.Size(144, 41);
+            this.ButtonJugar.Size = new System.Drawing.Size(144, 37);
             this.ButtonJugar.TabIndex = 23;
             this.ButtonJugar.Text = "A jugar";
-            this.ButtonJugar.UseVisualStyleBackColor = true;
+            this.ButtonJugar.UseVisualStyleBackColor = false;
             this.ButtonJugar.Click += new System.EventHandler(this.ButtonJugar_Click);
             // 
             // labelInfo
             // 
             this.labelInfo.AutoSize = true;
             this.labelInfo.BackColor = System.Drawing.SystemColors.Window;
-            this.labelInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelInfo.Location = new System.Drawing.Point(69, 167);
+            this.labelInfo.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelInfo.Location = new System.Drawing.Point(66, 170);
             this.labelInfo.Name = "labelInfo";
-            this.labelInfo.Size = new System.Drawing.Size(807, 75);
+            this.labelInfo.Size = new System.Drawing.Size(807, 46);
             this.labelInfo.TabIndex = 22;
-            this.labelInfo.Text = resources.GetString("labelInfo.Text");
+            this.labelInfo.Text = "El ejercicio consiste en encontrar cartas parejas en una serie de cartas con dive" +
+    "rsas  figuras en\r\ncada una de ellas, de las cuales están en par, esto quiere dec" +
+    "ir que cada dibujo está repetido.";
             // 
             // Label_Titulo
             // 
             this.Label_Titulo.AutoSize = true;
             this.Label_Titulo.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Label_Titulo.Location = new System.Drawing.Point(322, 74);
+            this.Label_Titulo.Location = new System.Drawing.Point(322, 67);
             this.Label_Titulo.Name = "Label_Titulo";
             this.Label_Titulo.Size = new System.Drawing.Size(241, 54);
             this.Label_Titulo.TabIndex = 1;
@@ -438,9 +444,9 @@ namespace SEMCP
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SEMCP.Properties.Resources.baseline_category_black_48dp;
-            this.pictureBox1.Location = new System.Drawing.Point(199, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(199, 44);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 91);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -456,17 +462,17 @@ namespace SEMCP
             this.Panel_R.Controls.Add(this.label4);
             this.Panel_R.Controls.Add(this.pictureBox2);
             this.Panel_R.Controls.Add(this.labelR);
-            this.Panel_R.Location = new System.Drawing.Point(12, 12);
+            this.Panel_R.Location = new System.Drawing.Point(12, 11);
             this.Panel_R.Name = "Panel_R";
-            this.Panel_R.Size = new System.Drawing.Size(906, 446);
+            this.Panel_R.Size = new System.Drawing.Size(906, 447);
             this.Panel_R.TabIndex = 33;
             this.Panel_R.Visible = false;
             // 
             // labelRN
             // 
-            this.labelRN.Location = new System.Drawing.Point(0, 242);
+            this.labelRN.Location = new System.Drawing.Point(0, 233);
             this.labelRN.Name = "labelRN";
-            this.labelRN.Size = new System.Drawing.Size(906, 32);
+            this.labelRN.Size = new System.Drawing.Size(906, 29);
             this.labelRN.TabIndex = 25;
             this.labelRN.Text = "Haz logrando encontrar los pares en ";
             this.labelRN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -475,7 +481,7 @@ namespace SEMCP
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(356, 48);
+            this.label4.Location = new System.Drawing.Point(356, 44);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(241, 162);
             this.label4.TabIndex = 24;
@@ -485,19 +491,19 @@ namespace SEMCP
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SEMCP.Properties.Resources.baseline_category_black_48dp;
-            this.pictureBox2.Location = new System.Drawing.Point(230, 28);
+            this.pictureBox2.Location = new System.Drawing.Point(230, 25);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(100, 91);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
             // 
             // labelR
             // 
-            this.labelR.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelR.Location = new System.Drawing.Point(69, 327);
+            this.labelR.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelR.Location = new System.Drawing.Point(69, 296);
             this.labelR.Name = "labelR";
-            this.labelR.Size = new System.Drawing.Size(792, 50);
+            this.labelR.Size = new System.Drawing.Size(792, 45);
             this.labelR.TabIndex = 22;
             this.labelR.Text = "Te recomendamos en seguir practicando el ejercicio, además de tener una vida sana" +
     ".";
@@ -505,7 +511,7 @@ namespace SEMCP
             // 
             // Form_M
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(930, 470);
@@ -515,7 +521,7 @@ namespace SEMCP
             this.Controls.Add(this.LabelN);
             this.Controls.Add(this.labelinfo2);
             this.Controls.Add(this.Panel_T);
-            this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_M";
             this.Text = "Form_M";

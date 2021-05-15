@@ -73,11 +73,13 @@ namespace SEMCP
                 c1 = null;
                 c2 = null; 
                 numero_intentos++;
+                label_I.Text = numero_intentos.ToString();
+
                 if (pares == 9) {
                     MessageBox.Show("Felicidades!");
                 }
                 pares++;
-                label_I.Text = numero_intentos.ToString();
+                
             }
             else {
                 timer1.Start();
