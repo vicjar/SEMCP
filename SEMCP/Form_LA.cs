@@ -97,6 +97,8 @@ namespace SEMCP
             int n = 0;
             label1.Text = "";
             ButtonComprobar.Visible = true;
+            labelinfo2.Text = "Ahora selecciona todos los artículos que se mostraron antes. \n Nivel " + Nivel.ToString();
+
 
 
             foreach (CustomCheckBox r in Panel_P.Controls)

@@ -88,6 +88,8 @@ namespace SEMCP
 
             Lista = Revolver(Lista);
 
+            if (Nivel > 6) Nivel = 6; // Esto para no pasarse de 9 objectos
+
             List<String> A = Revolver(Lista.GetRange(0, Nivel + 2));
             List<String> B = Revolver(Lista.GetRange(0, 20));
 

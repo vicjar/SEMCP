@@ -14,3 +14,4 @@ C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.genruntimeconfig.cache
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form1.resources
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form_LA.resources
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csprojAssemblyReference.cache
