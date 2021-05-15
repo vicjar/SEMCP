@@ -65,6 +65,7 @@ namespace SEMCP
             this.Panel_I.Controls.Add(this.labelInfo);
             this.Panel_I.Controls.Add(this.Label_Titulo);
             this.Panel_I.Controls.Add(this.pictureBox1);
+            this.Panel_I.Cursor = System.Windows.Forms.Cursors.Default;
             this.Panel_I.Location = new System.Drawing.Point(12, 12);
             this.Panel_I.Name = "Panel_I";
             this.Panel_I.Size = new System.Drawing.Size(906, 446);
@@ -72,23 +73,28 @@ namespace SEMCP
             // 
             // ButtonJugar
             // 
-            this.ButtonJugar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonJugar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ButtonJugar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonJugar.FlatAppearance.BorderSize = 0;
+            this.ButtonJugar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonJugar.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonJugar.ForeColor = System.Drawing.Color.White;
             this.ButtonJugar.Location = new System.Drawing.Point(377, 360);
             this.ButtonJugar.Name = "ButtonJugar";
             this.ButtonJugar.Size = new System.Drawing.Size(144, 41);
             this.ButtonJugar.TabIndex = 23;
             this.ButtonJugar.Text = "A jugar";
-            this.ButtonJugar.UseVisualStyleBackColor = true;
+            this.ButtonJugar.UseVisualStyleBackColor = false;
             this.ButtonJugar.Click += new System.EventHandler(this.ButtonJugar_Click);
             // 
             // labelInfo
             // 
             this.labelInfo.AutoSize = true;
             this.labelInfo.BackColor = System.Drawing.SystemColors.Window;
-            this.labelInfo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelInfo.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelInfo.Location = new System.Drawing.Point(78, 166);
             this.labelInfo.Name = "labelInfo";
-            this.labelInfo.Size = new System.Drawing.Size(757, 150);
+            this.labelInfo.Size = new System.Drawing.Size(760, 138);
             this.labelInfo.TabIndex = 22;
             this.labelInfo.Text = resources.GetString("labelInfo.Text");
             // 
@@ -160,13 +166,18 @@ namespace SEMCP
             // 
             // ButtonComprobar
             // 
-            this.ButtonComprobar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonComprobar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ButtonComprobar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonComprobar.FlatAppearance.BorderSize = 0;
+            this.ButtonComprobar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonComprobar.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ButtonComprobar.ForeColor = System.Drawing.Color.White;
             this.ButtonComprobar.Location = new System.Drawing.Point(403, 360);
             this.ButtonComprobar.Name = "ButtonComprobar";
             this.ButtonComprobar.Size = new System.Drawing.Size(144, 41);
             this.ButtonComprobar.TabIndex = 26;
             this.ButtonComprobar.Text = "Comprobar";
-            this.ButtonComprobar.UseVisualStyleBackColor = true;
+            this.ButtonComprobar.UseVisualStyleBackColor = false;
             this.ButtonComprobar.Click += new System.EventHandler(this.ButtonComprobar_Click);
             // 
             // labelSerie
@@ -231,10 +242,10 @@ namespace SEMCP
             // labelRN
             // 
             this.labelRN.AutoSize = true;
-            this.labelRN.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelRN.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelRN.Location = new System.Drawing.Point(322, 248);
             this.labelRN.Name = "labelRN";
-            this.labelRN.Size = new System.Drawing.Size(321, 32);
+            this.labelRN.Size = new System.Drawing.Size(302, 29);
             this.labelRN.TabIndex = 26;
             this.labelRN.Text = "Te has quedato en el Nivel ";
             // 
@@ -261,7 +272,7 @@ namespace SEMCP
             // 
             // labelR
             // 
-            this.labelR.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelR.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelR.Location = new System.Drawing.Point(64, 340);
             this.labelR.Name = "labelR";
             this.labelR.Size = new System.Drawing.Size(792, 50);

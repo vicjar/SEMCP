@@ -72,9 +72,9 @@ namespace SEMCP
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            tiempo--;
+            
             label_T.Text = tiempo.ToString();
-
+            tiempo--;
 
 
             if (tiempo < 0)
