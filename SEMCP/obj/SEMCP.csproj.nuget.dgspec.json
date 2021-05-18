@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\SEMCP.csproj": {}
+    "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\SEMCP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\SEMCP.csproj": {
+    "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\SEMCP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\SEMCP.csproj",
+        "projectUniqueName": "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\SEMCP.csproj",
         "projectName": "SEMCP",
-        "projectPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\SEMCP.csproj",
-        "packagesPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\obj\\",
+        "projectPath": "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\SEMCP.csproj",
+        "packagesPath": "C:\\Users\\vic_c\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vic_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

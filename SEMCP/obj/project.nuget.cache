@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ojwlaIJF3re9oUmrM4Ac674ftOMEIKKxkcsSI6/xmDIAL3wvMRkgOjS4yNzMN+r6ODpZPA7FAmO6asFaE05ymg==",
+  "dgSpecHash": "eoeORLRWhHnYMmcIw9SfOKLmpCsyvLfIevxg08Bmio0stJH1giO+pkS2aKctOmZr4VeVamq9VsaDcsVkIUBWDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jorge.DESKTOP-UL9VA9A\\source\\repos\\Proyecto_Residencia\\SEMCP\\SEMCP.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vic_c\\Documents\\SEMCP\\SEMCP\\SEMCP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vic_c\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }
