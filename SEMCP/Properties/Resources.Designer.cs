@@ -217,5 +217,14 @@ namespace SEMCP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        internal static System.Drawing.Bitmap Nota
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("Nota", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

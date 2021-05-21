@@ -82,11 +82,20 @@ namespace SEMCP
             P_T.Visible = true;
             label_T.Visible = true;
             timer1.Start();
+            bool aux = true;
 
             (ListaA, ListaB) = C.Pedir(Nivel);
             foreach (String x in ListaA)
             {
-                label1.Text += "\r" + x;
+                if (aux)
+                {
+                    label1.Text += " - " + x + "       ";
+                    aux = false;
+                }
+                else {
+                    label1.Text += " - " + x + "\r";
+                    aux = true;
+                }
             }
             
         }

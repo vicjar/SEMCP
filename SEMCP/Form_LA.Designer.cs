@@ -78,13 +78,16 @@ namespace SEMCP
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(294, 126);
+            this.label1.Image = global::SEMCP.Properties.Resources.Nota;
+            this.label1.Location = new System.Drawing.Point(104, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 25);
+            this.label1.Padding = new System.Windows.Forms.Padding(10);
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(627, 293);
             this.label1.TabIndex = 6;
-            this.label1.Text = "A";
+            this.label1.Text = "sdasdasd\r\nasd\r\nas\r\ndas\r\nd\r\nas\r\ndas\r\nd\r\nasdas";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ButtonComprobar
             // 
@@ -104,7 +107,7 @@ namespace SEMCP
             // labelinfo2
             // 
             this.labelinfo2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelinfo2.Location = new System.Drawing.Point(76, 32);
+            this.labelinfo2.Location = new System.Drawing.Point(83, 9);
             this.labelinfo2.Name = "labelinfo2";
             this.labelinfo2.Size = new System.Drawing.Size(792, 83);
             this.labelinfo2.TabIndex = 21;
@@ -136,9 +139,9 @@ namespace SEMCP
             this.Panel_P.Controls.Add(this.customCheckBox2);
             this.Panel_P.Controls.Add(this.customCheckBox1);
             this.Panel_P.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Panel_P.Location = new System.Drawing.Point(90, 110);
+            this.Panel_P.Location = new System.Drawing.Point(83, 95);
             this.Panel_P.Name = "Panel_P";
-            this.Panel_P.Size = new System.Drawing.Size(778, 272);
+            this.Panel_P.Size = new System.Drawing.Size(792, 293);
             this.Panel_P.TabIndex = 22;
             // 
             // customCheckBox11
@@ -505,7 +508,7 @@ namespace SEMCP
             // P_T
             // 
             this.P_T.Image = global::SEMCP.Properties.Resources.clock;
-            this.P_T.Location = new System.Drawing.Point(649, 136);
+            this.P_T.Location = new System.Drawing.Point(779, 120);
             this.P_T.Name = "P_T";
             this.P_T.Size = new System.Drawing.Size(40, 40);
             this.P_T.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -515,7 +518,7 @@ namespace SEMCP
             // label_T
             // 
             this.label_T.AutoSize = true;
-            this.label_T.Location = new System.Drawing.Point(607, 140);
+            this.label_T.Location = new System.Drawing.Point(737, 124);
             this.label_T.Name = "label_T";
             this.label_T.Size = new System.Drawing.Size(42, 32);
             this.label_T.TabIndex = 25;
