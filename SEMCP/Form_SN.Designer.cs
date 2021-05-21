@@ -182,7 +182,10 @@ namespace SEMCP
             // 
             // labelSerie
             // 
-            this.labelSerie.Font = new System.Drawing.Font("Roboto", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelSerie.BackColor = System.Drawing.Color.Black;
+            this.labelSerie.Font = new System.Drawing.Font("Consolas", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelSerie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.labelSerie.Image = global::SEMCP.Properties.Resources.marco;
             this.labelSerie.Location = new System.Drawing.Point(12, 149);
             this.labelSerie.Name = "labelSerie";
             this.labelSerie.Size = new System.Drawing.Size(894, 63);

@@ -210,6 +210,14 @@ namespace SEMCP.Properties {
             }
         }
 
+        internal static System.Drawing.Bitmap marco
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("marco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         ///-----------------------------------------------> Fin-SerieNuemros
     }
 }
