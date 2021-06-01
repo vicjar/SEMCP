@@ -69,5 +69,21 @@ namespace SEMCP
         {
             Close();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bc4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bc4_Click(object sender, EventArgs e)
+        {
+            FormSD simon = new FormSD();
+            simon.Show();
+        }
     }
 }
