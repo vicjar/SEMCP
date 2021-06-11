@@ -29,3 +29,12 @@ C:\Users\vic_c\Documents\SEMCP\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csproj.CoreCo
 C:\Users\vic_c\Documents\SEMCP\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.dll
 C:\Users\vic_c\Documents\SEMCP\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.pdb
 C:\Users\vic_c\Documents\SEMCP\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.genruntimeconfig.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csprojAssemblyReference.cache
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form_Login.resources
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csproj.CopyComplete
