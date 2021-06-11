@@ -40,7 +40,7 @@ namespace SEMCP
             {
 
                 Usuario User = new Usuario(conexion);
-                if (User.Buscar(txtUsuarioLogin.Text, txtPasswordLogin.Text))
+                if (User.login(txtUsuarioLogin.Text, txtPasswordLogin.Text))
                 {
                     Form1 fm = new Form1();
                     this.Hide();
