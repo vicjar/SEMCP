@@ -11,78 +11,55 @@ namespace SEMCP.Clases
         public int Id,Sexo,Edad,Tipo;
         public String Nombre, Apellido, User, Password,Fecha_Nac,Correo;
         public ConexionBD conexion;
- 
+
+        public Usuario() { }
         public Usuario(ConexionBD cnn) {
             conexion = cnn;
         }
 
         public bool login(String U, String P) {
             bool validar = true;
-            if (Buscar(U, P))
-            {
+          
                 try
                 {
+                    conexion.Open();
                     SqlCommand command;
                     SqlDataAdapter adapter = new SqlDataAdapter();
 
-                    String sql = "insert into Logins (Id_U,Fecha) values (" + Id + ",'" + DateTime.Now.ToString("yyyy-MM-dd") + "');";
+                    command = new SqlCommand($"UsuarioLogin '{U}', '{P}' ", conexion.connetion);
+                    SqlDataReader sdr = command.ExecuteReader();
 
-                    command = new SqlCommand(sql, conexion.connetion);
+                if (conexion.Mensaje == null)
+                {
+                    while (sdr.Read()) {
+                        Id = Int32.Parse(sdr["Id_U"].ToString());
+                        Sexo = Int32.Parse(sdr["Sexo"].ToString());
+                        Edad = Int32.Parse(sdr["Edad"].ToString());
+                        Tipo = Int32.Parse(sdr["Tipo_Usuario"].ToString());
+                        Nombre = sdr["Nombre"].ToString();
+                        Apellido = sdr["Apellido"].ToString();
+                        User = sdr["Usuario"].ToString();
+                        Fecha_Nac = sdr["Fecha_Nac"].ToString();
+                        Correo = sdr["Correo"].ToString();
+                        Password = sdr["Password"].ToString();
+                    }
+                }
+                else validar = false;
 
-                    adapter.InsertCommand = new SqlCommand(sql, conexion.connetion);
-                    adapter.InsertCommand.ExecuteNonQuery();
-                    command.Dispose();
+                command.Dispose();
+                conexion.Close();
                 }
                 catch (Exception e)
                 {
                     validar = false;
                     MessageBox.Show(e.Message);
-                }
-
-            }
-            else validar = false;
-
-            return validar;
-        }
-
-        public bool Buscar(String U, String P) {
-            bool validar = true;
-
-            try {
-                string sqlquery = "Select * from Usuarios where Usuario = '" + U + "' and Password = '"+P+"'";
-
-                SqlCommand command = new SqlCommand(sqlquery, conexion.connetion);
-
-                SqlDataReader sdr = command.ExecuteReader();
-
-                if (sdr.Read())
-                {
-                    Id = Int32.Parse(sdr["Id_U"].ToString());
-                    Sexo = Int32.Parse(sdr["Sexo"].ToString());
-                    Edad = Int32.Parse(sdr["Edad"].ToString());
-                    Tipo = Int32.Parse(sdr["Tipo_Usuario"].ToString());
-                    Nombre = sdr["Nombre"].ToString();
-                    Apellido = sdr["Apellido"].ToString();
-                    User = sdr["Usuario"].ToString();
-                    Fecha_Nac = sdr["Fecha_Nac"].ToString();
-                    Correo = sdr["Correo"].ToString();
-                    Password = sdr["Password"].ToString();
-                }
-                else {
-                    validar = false;
-                }
-
-
-                
-                command.Dispose();
-
-            } catch (Exception e) {
-                MessageBox.Show("Error: "+e.Message);
-                validar = false;
+                conexion.Close();
             }
 
             return validar;
         }
+
+
 
 
         public bool Buscar(String id) {
@@ -90,9 +67,9 @@ namespace SEMCP.Clases
 
             try
             {
-                string sqlquery = "Select * from Usuarios where Id_U =  " + id;
+                conexion.Open();
 
-                SqlCommand command = new SqlCommand(sqlquery, conexion.connetion);
+                SqlCommand command = new SqlCommand($"Select * from Usuarios where Id_U = {id} ", conexion.connetion);
 
                 SqlDataReader sdr = command.ExecuteReader();
 
@@ -117,12 +94,14 @@ namespace SEMCP.Clases
 
 
                 command.Dispose();
+                conexion.Close();
 
             }
             catch (Exception e)
             {
                 MessageBox.Show("Error: " + e.Message);
                 validar = false;
+                conexion.Close();
             }
 
             return validar;
@@ -132,20 +111,21 @@ namespace SEMCP.Clases
 
             bool valido = true;
             try {
+
+                conexion.Open();
                 SqlCommand command;
                 SqlDataAdapter adapter = new SqlDataAdapter();
 
-                String sql = "insert into Usuarios (Usuario,Password,Nombre,Apellido,Sexo,Edad,Correo,Fecha_Nac,Tipo_Usuario)" +
-                             " values ('" + User + "','" + Password + "','" + Nombre + "','" + Apellido + "'," + Sexo + "," + Edad + ",'" + Correo + "','" + Fecha_Nac + "'," + Tipo + ");";
-               
-                command = new SqlCommand(sql, conexion.connetion);
+                command = new SqlCommand($"Nuevo_Usuario  '{User}','{Password}','{Nombre}','{Apellido}',{Sexo},{Edad},'{Correo}','{Fecha_Nac}',{Tipo}", conexion.connetion);
+                SqlDataReader sdr = command.ExecuteReader();
 
-                adapter.InsertCommand = new SqlCommand(sql, conexion.connetion);
-                adapter.InsertCommand.ExecuteNonQuery();
                 command.Dispose();
+                conexion.Close();
+
             } catch (Exception e) {
                 valido = false;
                 MessageBox.Show(e.Message);
+                conexion.Close();
             }
             return valido;
         }
@@ -154,18 +134,19 @@ namespace SEMCP.Clases
             bool valido = true;
             try
             {
+                conexion.Open();
                 SqlCommand command;
-                SqlDataAdapter adapter = new SqlDataAdapter();
 
                 String sql = "delete from Usuarios where Id_U = "+Id;
                 command = new SqlCommand(sql, conexion.connetion);
-
-                adapter.DeleteCommand = new SqlCommand(sql, conexion.connetion);
-                adapter.DeleteCommand.ExecuteNonQuery();
-                command.Dispose();
+                
+                SqlDataReader sdr = command.ExecuteReader();
+               command.Dispose();
+                conexion.Close();
             }
             catch (Exception e)
             {
+                conexion.Close();
                 valido = false;
                 MessageBox.Show(e.Message);
             }
@@ -176,29 +157,22 @@ namespace SEMCP.Clases
             bool valido = true;
             try
             {
+
+                conexion.Open();
                 SqlCommand command;
-                SqlDataAdapter adapter = new SqlDataAdapter();
 
-                String sql = "update Usuarios set Usuario = '" + User
-                    + "', Nombre ='" + Nombre
-                    + "', Apellido = '" + Apellido
-                    + "',Sexo = " + Sexo +
-                    ",Edad = " + Edad +
-                    ",Correo = '" + Correo +
-                    "',Fecha_Nac = '" + Fecha_Nac +
-                    "' where  Id_U = " + Id.ToString();
+                command = new SqlCommand($"Update_Usuario  {Id},'{User}','{Nombre}','{Apellido}',{Sexo},{Edad},'{Correo}','{Fecha_Nac}'", conexion.connetion);
+                SqlDataReader sdr = command.ExecuteReader();
 
-
-                command = new SqlCommand(sql, conexion.connetion);
-
-                adapter.UpdateCommand = new SqlCommand(sql, conexion.connetion);
-                adapter.UpdateCommand.ExecuteNonQuery();
                 command.Dispose();
+                conexion.Close();
+
             }
             catch (Exception e)
             {
                 valido = false;
                 MessageBox.Show(e.Message);
+                conexion.Close();
             }
             return valido;
         }
@@ -207,21 +181,50 @@ namespace SEMCP.Clases
                 bool valido = true;
                 try
                 {
+                   conexion.Open();
                     SqlCommand command;
                     SqlDataAdapter adapter = new SqlDataAdapter();
 
-                    String sql = "update Usuarios set Password = '"+P+"' where Usuario = '"+U+"' or Correo = '"+U+"'";
-                    command = new SqlCommand(sql, conexion.connetion);
+                    command = new SqlCommand($"CambiarPasssword  '{P}','{U}'", conexion.connetion);
+                    SqlDataReader sdr = command.ExecuteReader();
 
-                    adapter.UpdateCommand = new SqlCommand(sql, conexion.connetion);
-                    adapter.UpdateCommand.ExecuteNonQuery();
                     command.Dispose();
+                    conexion.Close();
+                    Password = P;
                 }
                 catch (Exception e)
                 {
                     valido = false;
                     MessageBox.Show(e.Message);
+                conexion.Close();
+            }
+                return valido;
+            
+        }
+
+        public bool Registrar_Resultados(int puntaje, int juego) {
+
+                bool valido = true;
+                try
+                {
+                    if (Id != 0) {
+                        conexion.Open();
+                        SqlCommand command;
+                        SqlDataAdapter adapter = new SqlDataAdapter();
+
+                        command = new SqlCommand($"Registrar_Resultados  {juego},{Id},{puntaje}", conexion.connetion);
+                        SqlDataReader sdr = command.ExecuteReader();
+
+                        command.Dispose();
+                        conexion.Close();
+                    }
                 }
+                catch (Exception e)
+                {
+                    valido = false;
+                    MessageBox.Show(e.Message);
+                    conexion.Close();
+            }
                 return valido;
             
         }

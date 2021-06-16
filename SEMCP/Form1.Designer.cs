@@ -40,32 +40,33 @@ namespace SEMCP
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.bc6 = new SEMCP.BC();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bc1 = new SEMCP.BC();
-            this.bc7 = new SEMCP.BC();
+            this.lbTitutloModulo = new System.Windows.Forms.Label();
+            this.lbTitulo = new System.Windows.Forms.Label();
+            this.PanelJuego = new SEMCP.BC();
+            this.CardCartas = new SEMCP.BC();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bc4 = new SEMCP.BC();
+            this.CardSimon = new SEMCP.BC();
             this.label12 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.bc3 = new SEMCP.BC();
+            this.CardArticulos = new SEMCP.BC();
+            this.button5 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.bc2 = new SEMCP.BC();
+            this.CardNumeros = new SEMCP.BC();
+            this.button7 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.bc8 = new SEMCP.BC();
+            this.CardAnimales = new SEMCP.BC();
             this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bc9 = new SEMCP.BC();
+            this.CardMemorama = new SEMCP.BC();
+            this.button6 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -74,19 +75,17 @@ namespace SEMCP
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.bc6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.bc7.SuspendLayout();
+            this.CardCartas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.bc4.SuspendLayout();
+            this.CardSimon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.bc3.SuspendLayout();
+            this.CardArticulos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.bc2.SuspendLayout();
+            this.CardNumeros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.bc8.SuspendLayout();
+            this.CardAnimales.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.bc9.SuspendLayout();
+            this.CardMemorama.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,6 +105,8 @@ namespace SEMCP
             // 
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
@@ -117,11 +118,14 @@ namespace SEMCP
             this.button4.TabIndex = 3;
             this.button4.Text = "Log out";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
@@ -131,13 +135,16 @@ namespace SEMCP
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 45);
             this.button3.TabIndex = 2;
-            this.button3.Text = "Historial";
+            this.button3.Text = "Progreso";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
@@ -149,11 +156,14 @@ namespace SEMCP
             this.button2.TabIndex = 1;
             this.button2.Text = "Cuenta";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
@@ -165,6 +175,7 @@ namespace SEMCP
             this.button1.TabIndex = 0;
             this.button1.Text = "Inicio";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -180,7 +191,7 @@ namespace SEMCP
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImage = global::SEMCP.Properties.Resources.gradient;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.bc5);
@@ -216,83 +227,56 @@ namespace SEMCP
             // 
             // bc6
             // 
-            this.bc6.BackgroundImage = global::SEMCP.Properties.Resources.gradient;
+            this.bc6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bc6.BackgroundImage")));
             this.bc6.Controls.Add(this.pictureBox1);
-            this.bc6.Controls.Add(this.label2);
-            this.bc6.Controls.Add(this.label1);
-            this.bc6.Controls.Add(this.pictureBox3);
-            this.bc6.Controls.Add(this.pictureBox2);
+            this.bc6.Controls.Add(this.lbTitutloModulo);
+            this.bc6.Controls.Add(this.lbTitulo);
             this.bc6.Location = new System.Drawing.Point(156, -47);
             this.bc6.Name = "bc6";
             this.bc6.Size = new System.Drawing.Size(976, 279);
             this.bc6.TabIndex = 3;
             // 
-            // label2
+            // lbTitutloModulo
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(80, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Inicio";
+            this.lbTitutloModulo.AutoSize = true;
+            this.lbTitutloModulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbTitutloModulo.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTitutloModulo.ForeColor = System.Drawing.Color.White;
+            this.lbTitutloModulo.Location = new System.Drawing.Point(80, 60);
+            this.lbTitutloModulo.Name = "lbTitutloModulo";
+            this.lbTitutloModulo.Size = new System.Drawing.Size(58, 23);
+            this.lbTitutloModulo.TabIndex = 3;
+            this.lbTitutloModulo.Text = "Inicio";
             // 
-            // label1
+            // lbTitulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(80, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(321, 44);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Bienvenido, Jorge\r\n";
+            this.lbTitulo.AutoSize = true;
+            this.lbTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbTitulo.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTitulo.ForeColor = System.Drawing.Color.White;
+            this.lbTitulo.Location = new System.Drawing.Point(80, 94);
+            this.lbTitulo.Name = "lbTitulo";
+            this.lbTitulo.Size = new System.Drawing.Size(321, 44);
+            this.lbTitulo.TabIndex = 2;
+            this.lbTitulo.Text = "Bienvenido, Jorge\r\n";
             // 
-            // pictureBox3
+            // PanelJuego
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::SEMCP.Properties.Resources.minus;
-            this.pictureBox3.Location = new System.Drawing.Point(867, 60);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.PanelJuego.Location = new System.Drawing.Point(157, 238);
+            this.PanelJuego.Name = "PanelJuego";
+            this.PanelJuego.Size = new System.Drawing.Size(931, 350);
+            this.PanelJuego.TabIndex = 4;
             // 
-            // pictureBox2
+            // CardCartas
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::SEMCP.Properties.Resources.close;
-            this.pictureBox2.Location = new System.Drawing.Point(893, 60);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // bc1
-            // 
-            this.bc1.Location = new System.Drawing.Point(157, 238);
-            this.bc1.Name = "bc1";
-            this.bc1.Size = new System.Drawing.Size(931, 350);
-            this.bc1.TabIndex = 4;
-            // 
-            // bc7
-            // 
-            this.bc7.BackColor = System.Drawing.Color.White;
-            this.bc7.Controls.Add(this.label13);
-            this.bc7.Controls.Add(this.label8);
-            this.bc7.Controls.Add(this.pictureBox8);
-            this.bc7.Location = new System.Drawing.Point(650, 300);
-            this.bc7.Name = "bc7";
-            this.bc7.Size = new System.Drawing.Size(349, 140);
-            this.bc7.TabIndex = 18;
+            this.CardCartas.BackColor = System.Drawing.Color.White;
+            this.CardCartas.Controls.Add(this.label13);
+            this.CardCartas.Controls.Add(this.label8);
+            this.CardCartas.Controls.Add(this.pictureBox8);
+            this.CardCartas.Location = new System.Drawing.Point(650, 300);
+            this.CardCartas.Name = "CardCartas";
+            this.CardCartas.Size = new System.Drawing.Size(349, 140);
+            this.CardCartas.TabIndex = 18;
             // 
             // label13
             // 
@@ -327,16 +311,16 @@ namespace SEMCP
             this.pictureBox8.TabIndex = 2;
             this.pictureBox8.TabStop = false;
             // 
-            // bc4
+            // CardSimon
             // 
-            this.bc4.BackColor = System.Drawing.Color.White;
-            this.bc4.Controls.Add(this.label12);
-            this.bc4.Controls.Add(this.label7);
-            this.bc4.Controls.Add(this.pictureBox9);
-            this.bc4.Location = new System.Drawing.Point(650, 150);
-            this.bc4.Name = "bc4";
-            this.bc4.Size = new System.Drawing.Size(349, 140);
-            this.bc4.TabIndex = 17;
+            this.CardSimon.BackColor = System.Drawing.Color.White;
+            this.CardSimon.Controls.Add(this.label12);
+            this.CardSimon.Controls.Add(this.label7);
+            this.CardSimon.Controls.Add(this.pictureBox9);
+            this.CardSimon.Location = new System.Drawing.Point(650, 150);
+            this.CardSimon.Name = "CardSimon";
+            this.CardSimon.Size = new System.Drawing.Size(349, 140);
+            this.CardSimon.TabIndex = 17;
             // 
             // label12
             // 
@@ -363,7 +347,7 @@ namespace SEMCP
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::SEMCP.Properties.Resources.baseline_home_black_48dp;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(37, 29);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(79, 79);
@@ -371,16 +355,27 @@ namespace SEMCP
             this.pictureBox9.TabIndex = 2;
             this.pictureBox9.TabStop = false;
             // 
-            // bc3
+            // CardArticulos
             // 
-            this.bc3.BackColor = System.Drawing.Color.White;
-            this.bc3.Controls.Add(this.label11);
-            this.bc3.Controls.Add(this.label6);
-            this.bc3.Controls.Add(this.pictureBox7);
-            this.bc3.Location = new System.Drawing.Point(250, 450);
-            this.bc3.Name = "bc3";
-            this.bc3.Size = new System.Drawing.Size(349, 140);
-            this.bc3.TabIndex = 16;
+            this.CardArticulos.BackColor = System.Drawing.Color.White;
+            this.CardArticulos.Controls.Add(this.button5);
+            this.CardArticulos.Controls.Add(this.label11);
+            this.CardArticulos.Controls.Add(this.label6);
+            this.CardArticulos.Controls.Add(this.pictureBox7);
+            this.CardArticulos.Location = new System.Drawing.Point(250, 450);
+            this.CardArticulos.Name = "CardArticulos";
+            this.CardArticulos.Size = new System.Drawing.Size(349, 140);
+            this.CardArticulos.TabIndex = 16;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(167, 98);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Jugar";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -389,9 +384,9 @@ namespace SEMCP
             this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(112, 53);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(216, 69);
+            this.label11.Size = new System.Drawing.Size(216, 32);
             this.label11.TabIndex = 7;
-            this.label11.Text = resources.GetString("label11.Text");
+            this.label11.Text = "Consiste en memorizar una lista de articulos.";
             // 
             // label6
             // 
@@ -407,7 +402,7 @@ namespace SEMCP
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::SEMCP.Properties.Resources.baseline_shopping_basket_black_48dp;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(27, 32);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(79, 79);
@@ -415,16 +410,27 @@ namespace SEMCP
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
             // 
-            // bc2
+            // CardNumeros
             // 
-            this.bc2.BackColor = System.Drawing.Color.White;
-            this.bc2.Controls.Add(this.label9);
-            this.bc2.Controls.Add(this.label5);
-            this.bc2.Controls.Add(this.pictureBox6);
-            this.bc2.Location = new System.Drawing.Point(250, 300);
-            this.bc2.Name = "bc2";
-            this.bc2.Size = new System.Drawing.Size(349, 140);
-            this.bc2.TabIndex = 15;
+            this.CardNumeros.BackColor = System.Drawing.Color.White;
+            this.CardNumeros.Controls.Add(this.button7);
+            this.CardNumeros.Controls.Add(this.label9);
+            this.CardNumeros.Controls.Add(this.label5);
+            this.CardNumeros.Controls.Add(this.pictureBox6);
+            this.CardNumeros.Location = new System.Drawing.Point(250, 300);
+            this.CardNumeros.Name = "CardNumeros";
+            this.CardNumeros.Size = new System.Drawing.Size(349, 140);
+            this.CardNumeros.TabIndex = 15;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(167, 92);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 9;
+            this.button7.Text = "Jugar";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label9
             // 
@@ -433,9 +439,9 @@ namespace SEMCP
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(112, 50);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(216, 69);
+            this.label9.Size = new System.Drawing.Size(216, 39);
             this.label9.TabIndex = 6;
-            this.label9.Text = resources.GetString("label9.Text");
+            this.label9.Text = "Consiste en memorizar una serie de numeros.";
             // 
             // label5
             // 
@@ -459,16 +465,16 @@ namespace SEMCP
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
             // 
-            // bc8
+            // CardAnimales
             // 
-            this.bc8.BackColor = System.Drawing.Color.White;
-            this.bc8.Controls.Add(this.label10);
-            this.bc8.Controls.Add(this.label3);
-            this.bc8.Controls.Add(this.pictureBox5);
-            this.bc8.Location = new System.Drawing.Point(250, 150);
-            this.bc8.Name = "bc8";
-            this.bc8.Size = new System.Drawing.Size(349, 140);
-            this.bc8.TabIndex = 14;
+            this.CardAnimales.BackColor = System.Drawing.Color.White;
+            this.CardAnimales.Controls.Add(this.label10);
+            this.CardAnimales.Controls.Add(this.label3);
+            this.CardAnimales.Controls.Add(this.pictureBox5);
+            this.CardAnimales.Location = new System.Drawing.Point(250, 150);
+            this.CardAnimales.Name = "CardAnimales";
+            this.CardAnimales.Size = new System.Drawing.Size(349, 140);
+            this.CardAnimales.TabIndex = 14;
             // 
             // label10
             // 
@@ -504,16 +510,27 @@ namespace SEMCP
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
             // 
-            // bc9
+            // CardMemorama
             // 
-            this.bc9.BackColor = System.Drawing.Color.White;
-            this.bc9.Controls.Add(this.label14);
-            this.bc9.Controls.Add(this.label15);
-            this.bc9.Controls.Add(this.pictureBox10);
-            this.bc9.Location = new System.Drawing.Point(650, 450);
-            this.bc9.Name = "bc9";
-            this.bc9.Size = new System.Drawing.Size(349, 140);
-            this.bc9.TabIndex = 19;
+            this.CardMemorama.BackColor = System.Drawing.Color.White;
+            this.CardMemorama.Controls.Add(this.button6);
+            this.CardMemorama.Controls.Add(this.label14);
+            this.CardMemorama.Controls.Add(this.label15);
+            this.CardMemorama.Controls.Add(this.pictureBox10);
+            this.CardMemorama.Location = new System.Drawing.Point(650, 450);
+            this.CardMemorama.Name = "CardMemorama";
+            this.CardMemorama.Size = new System.Drawing.Size(349, 140);
+            this.CardMemorama.TabIndex = 19;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(187, 98);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Jugar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label14
             // 
@@ -522,9 +539,9 @@ namespace SEMCP
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(122, 52);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(216, 69);
+            this.label14.Size = new System.Drawing.Size(216, 44);
             this.label14.TabIndex = 7;
-            this.label14.Text = resources.GetString("label14.Text");
+            this.label14.Text = "Consiste en encontrar todos los pares.\r\n";
             // 
             // label15
             // 
@@ -554,16 +571,16 @@ namespace SEMCP
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1100, 600);
-            this.Controls.Add(this.bc9);
-            this.Controls.Add(this.bc7);
-            this.Controls.Add(this.bc4);
-            this.Controls.Add(this.bc3);
-            this.Controls.Add(this.bc2);
-            this.Controls.Add(this.bc8);
-            this.Controls.Add(this.bc1);
+            this.Controls.Add(this.CardMemorama);
+            this.Controls.Add(this.CardCartas);
+            this.Controls.Add(this.CardSimon);
+            this.Controls.Add(this.CardArticulos);
+            this.Controls.Add(this.CardNumeros);
+            this.Controls.Add(this.CardAnimales);
+            this.Controls.Add(this.PanelJuego);
             this.Controls.Add(this.bc6);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -575,19 +592,17 @@ namespace SEMCP
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.bc6.ResumeLayout(false);
             this.bc6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.bc7.ResumeLayout(false);
+            this.CardCartas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.bc4.ResumeLayout(false);
+            this.CardSimon.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.bc3.ResumeLayout(false);
+            this.CardArticulos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.bc2.ResumeLayout(false);
+            this.CardNumeros.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.bc8.ResumeLayout(false);
+            this.CardAnimales.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.bc9.ResumeLayout(false);
+            this.CardMemorama.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
@@ -602,37 +617,39 @@ namespace SEMCP
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private BC bc1;
-        private BC bc7;
+        private System.Windows.Forms.Label lbTitutloModulo;
+        private System.Windows.Forms.Label lbTitulo;
+        private BC PanelJuego;
+        private BC CardCartas;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private BC bc4;
+        private BC CardSimon;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private BC bc3;
+        private BC CardArticulos;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private BC bc2;
+        private BC CardNumeros;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private BC bc8;
+        private BC CardAnimales;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private BC bc9;
+        private BC CardMemorama;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private BC a;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
     }
 }
 

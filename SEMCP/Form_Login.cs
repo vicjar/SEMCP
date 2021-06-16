@@ -15,7 +15,6 @@ namespace SEMCP
         public Form_Login()
         {
             InitializeComponent();
-            conexion.Open();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,7 +41,7 @@ namespace SEMCP
                 Usuario User = new Usuario(conexion);
                 if (User.login(txtUsuarioLogin.Text, txtPasswordLogin.Text))
                 {
-                    Form1 fm = new Form1();
+                    Form1 fm = new Form1(User);
                     this.Hide();
                     fm.ShowDialog();
                     this.Close();
@@ -191,6 +190,25 @@ namespace SEMCP
                 MessageBox.Show("Lo sentimos, algo salio mal. Te recomendamos ingresa correctamente los datos.","SEMCP",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void btnInvitado_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola Usuario Invitado, estas a punto de entrar al sistema pero sin tener una cuenta. \n " +
+                "El progreso que realices no se guarda hasta que tengas un cuenta.\n Gracias. ", "SEMCP",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            Usuario Invitado = new Usuario();
+
+            Invitado.Nombre = "Usuario Invitado";
+            Invitado.Id = 0;
+            Invitado.Tipo = 3;
+
+
+            Form1 fm = new Form1(Invitado);
+            this.Hide();
+            fm.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -512,6 +512,7 @@ namespace SEMCP
             this.btnInvitado.TabIndex = 30;
             this.btnInvitado.Text = "Modo Invitado";
             this.btnInvitado.UseVisualStyleBackColor = false;
+            this.btnInvitado.Click += new System.EventHandler(this.btnInvitado_Click);
             // 
             // linkLabel1
             // 
