@@ -165,27 +165,27 @@ namespace SEMCP
 
                 if (User.Tipo == 1)
                 {
-                    //lbTitutloModulo.Text = "Cuentas";
-                    //Form_Cuentas FSN = new Form_Cuentas(User);
+                    lbTitutloModulo.Text = "Cuentas";
+                    Form_Cuentas FSN = new Form_Cuentas(User);
 
-                    //FSN.TopLevel = false;
-                    //FSN.Dock = DockStyle.Fill;
-                    //PanelJuego.Controls.Add(FSN);
-                    //PanelJuego.Tag = FSN;
-                    //FSN.Show();
-                    
+                    FSN.TopLevel = false;
+                    FSN.Dock = DockStyle.Fill;
+                    PanelJuego.Controls.Add(FSN);
+                    PanelJuego.Tag = FSN;
+                    FSN.Show();
+
                 }
                 if (User.Tipo == 2)
                 {
-                    //lbTitutloModulo.Text = "Cuenta";
-                    //Form_Cuenta FS = new Form_Cuenta(User);
+                    lbTitutloModulo.Text = "Cuenta";
+                    Form_Cuenta FS = new Form_Cuenta(User);
 
-                    //FS.TopLevel = false;
-                    //FS.Dock = DockStyle.Fill;
-                    //PanelJuego.Controls.Add(FS);
-                    //PanelJuego.Tag = FS;
-                    //FS.Show();
-                    
+                    FS.TopLevel = false;
+                    FS.Dock = DockStyle.Fill;
+                    PanelJuego.Controls.Add(FS);
+                    PanelJuego.Tag = FS;
+                    FS.Show();
+
                 }
             }
         }

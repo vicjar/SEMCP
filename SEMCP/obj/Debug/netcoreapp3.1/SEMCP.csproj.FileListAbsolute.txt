@@ -38,3 +38,5 @@ C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.csproj.CopyComplete
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form_Cuenta.resources
+C:\Users\Jorge.DESKTOP-UL9VA9A\source\repos\Proyecto_Residencia\SEMCP\obj\Debug\netcoreapp3.1\SEMCP.Form_Cuentas.resources
