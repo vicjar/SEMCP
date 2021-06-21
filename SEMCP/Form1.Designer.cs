@@ -458,6 +458,8 @@ namespace SEMCP
             this.bc8.Name = "bc8";
             this.bc8.Size = new System.Drawing.Size(349, 140);
             this.bc8.TabIndex = 14;
+            this.bc8.Click += new System.EventHandler(this.bc8_Click);
+            this.bc8.Paint += new System.Windows.Forms.PaintEventHandler(this.bc8_Paint);
             // 
             // label10
             // 
@@ -534,7 +536,7 @@ namespace SEMCP
             this.pictureBox10.TabIndex = 2;
             this.pictureBox10.TabStop = false;
             // 
-            // Form1_SM
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -550,7 +552,7 @@ namespace SEMCP
             this.Controls.Add(this.bc6);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1_SM";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

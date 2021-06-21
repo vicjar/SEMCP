@@ -85,5 +85,16 @@ namespace SEMCP
             FormSD simon = new FormSD();
             simon.Show();
         }
+
+        private void bc8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bc8_Click(object sender, EventArgs e)
+        {
+            FormLA animales = new FormLA();
+            animales.Show();
+        }
     }
 }

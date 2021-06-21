@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -33,7 +34,7 @@ namespace SEMCP
         }
         public void iniciarJuego()
         {
- 
+           // SoundPlayer sp = new SoundPlayer(Properties.Resources.boton);
             Thread.Sleep(tiempoEspera);
             hablando = true;
 
