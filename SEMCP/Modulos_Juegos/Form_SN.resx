@@ -1,0 +1,87 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>El ejercicio consiste en mostrar una serie de números por un lazo de tiempo para poder
+memorizarlos, luego ingrese esa dicha serie, si acierta pasara de nivel, si no terminara el 
+ejercicio.
+
+El objetivo es tratar de memorizar la máxima cantidad de números tomando en cuenta 
+que cada nivel va aumentado la serie.</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="labelSerie.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAA34AAAA/CAMAAACIG+pyAAAABGdBTUEAALGPC/xhBQAAAFFQTFRF////
+        9/f3p6enYGBgW1tbUlJSUFBQ+/v7h4eHVlZW29vbXFxcw8PDVVVVRkZGLy8vKCgoAAAAWlpaWFhYo6Oj
+        VFRUg4ODKSkp19fXU1NT09PTcperUAAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAcVJREFUeF7t3cl24jAQ
+        QFEbTJiHZkrI/39o26JCWPRWqkXfuxKI7TtlGZ/jDgD+Z/1sPiw+gGoWw3zWR3Dvlqt1/AKoaL1aRnQv
+        m23sAZVtN5Fd2O1jA6huv4vwis2zvsMRqOpQUtu/zb9lufI8HE9/gKpOzwC3v+e/ValPfNDAqfS3ivi6
+        frrnqT5oo/S3/vn/YTbFeIwtoLLjVNws8puPa8MPWinjbx75DYYftDSNvyHym540kx80M+W3iPzGpfyg
+        nXL4kx9kkB+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+k
+        kR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kkR+kec/Py6WhqSm/n5dLn+UHLU35
+        nSO/y7g+nGIDqOx0GJO7RH7XcW38QSvl6HeN/Prb+MH4gzbK8Lv1kV93n2LUH7RQ6vu4R3zj+BtKf8fP
+        2Acq+TyW+obX8Ou6r8f0zRggUFWJ7+PxFekVu2d/QAOPXYQXvsv1J1Df8B3ZvfT36f4nUNnt/nbue+mv
+        l/P0/BlQyeJ8uf4rPgAAqKvr/gJi1wl3QclwBgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>27</value>
+  </metadata>
+</root>

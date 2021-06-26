@@ -1,13 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="BC.cs">
+    <Compile Update="Clases\Carta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Clases\Casilla.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Clases\BC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Clases\CustomCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form_Login.cs">
+    <Compile Update="Modulos_Juegos\FormCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modulos_Juegos\FormLA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modulos_Juegos\FormSD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModuloCuenta\Form_Cuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModuloCuenta\Form_Cuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modulos_Juegos\Form_LA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModuloLogin\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modulos_Juegos\Form_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModuloProgreso\Form_Progreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModuloProgreso\Form_Progresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Modulos_Juegos\Form_SN.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

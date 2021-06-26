@@ -29,6 +29,7 @@ namespace SEMCP
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Panel_RP = new System.Windows.Forms.Panel();
@@ -64,10 +65,10 @@ namespace SEMCP
             this.btnLoginPanel = new System.Windows.Forms.Button();
             this.btnRegistrarPanel = new System.Windows.Forms.Button();
             this.Panel_Login = new System.Windows.Forms.Panel();
+            this.lbTitulo = new System.Windows.Forms.Label();
             this.btnInvitado = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.lbPasswordLogin = new System.Windows.Forms.Label();
             this.txtPasswordLogin = new System.Windows.Forms.TextBox();
@@ -108,7 +109,7 @@ namespace SEMCP
             // 
             this.Panel_RP.Controls.Add(this.gbRC);
             this.Panel_RP.Controls.Add(this.linkLabel2);
-            this.Panel_RP.Location = new System.Drawing.Point(0, 70);
+            this.Panel_RP.Location = new System.Drawing.Point(10, 70);
             this.Panel_RP.Name = "Panel_RP";
             this.Panel_RP.Size = new System.Drawing.Size(640, 550);
             this.Panel_RP.TabIndex = 35;
@@ -225,7 +226,7 @@ namespace SEMCP
             // Panel_Registro
             // 
             this.Panel_Registro.Controls.Add(this.gbRegistro);
-            this.Panel_Registro.Location = new System.Drawing.Point(0, 70);
+            this.Panel_Registro.Location = new System.Drawing.Point(10, 70);
             this.Panel_Registro.Name = "Panel_Registro";
             this.Panel_Registro.Size = new System.Drawing.Size(640, 550);
             this.Panel_Registro.TabIndex = 34;
@@ -484,10 +485,10 @@ namespace SEMCP
             // 
             // Panel_Login
             // 
+            this.Panel_Login.Controls.Add(this.lbTitulo);
             this.Panel_Login.Controls.Add(this.btnInvitado);
             this.Panel_Login.Controls.Add(this.linkLabel1);
             this.Panel_Login.Controls.Add(this.checkBox1);
-            this.Panel_Login.Controls.Add(this.label1);
             this.Panel_Login.Controls.Add(this.btnLogin);
             this.Panel_Login.Controls.Add(this.lbPasswordLogin);
             this.Panel_Login.Controls.Add(this.txtPasswordLogin);
@@ -498,6 +499,19 @@ namespace SEMCP
             this.Panel_Login.Size = new System.Drawing.Size(640, 550);
             this.Panel_Login.TabIndex = 0;
             // 
+            // lbTitulo
+            // 
+            this.lbTitulo.AutoSize = true;
+            this.lbTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbTitulo.Font = new System.Drawing.Font("Roboto", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTitulo.ForeColor = System.Drawing.Color.Black;
+            this.lbTitulo.Location = new System.Drawing.Point(255, 32);
+            this.lbTitulo.Name = "lbTitulo";
+            this.lbTitulo.Size = new System.Drawing.Size(158, 44);
+            this.lbTitulo.TabIndex = 33;
+            this.lbTitulo.Text = "- Login -";
+            this.lbTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnInvitado
             // 
             this.btnInvitado.BackColor = System.Drawing.Color.DodgerBlue;
@@ -506,7 +520,7 @@ namespace SEMCP
             this.btnInvitado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInvitado.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnInvitado.ForeColor = System.Drawing.Color.White;
-            this.btnInvitado.Location = new System.Drawing.Point(180, 410);
+            this.btnInvitado.Location = new System.Drawing.Point(171, 363);
             this.btnInvitado.Name = "btnInvitado";
             this.btnInvitado.Size = new System.Drawing.Size(298, 41);
             this.btnInvitado.TabIndex = 30;
@@ -518,7 +532,7 @@ namespace SEMCP
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel1.Location = new System.Drawing.Point(257, 494);
+            this.linkLabel1.Location = new System.Drawing.Point(255, 432);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(158, 19);
             this.linkLabel1.TabIndex = 32;
@@ -531,24 +545,12 @@ namespace SEMCP
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox1.Location = new System.Drawing.Point(180, 301);
+            this.checkBox1.Location = new System.Drawing.Point(178, 271);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(116, 23);
             this.checkBox1.TabIndex = 28;
             this.checkBox1.Text = "Recuerdame";
             this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(234, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 65);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "SEMCP";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnLogin
             // 
@@ -558,7 +560,7 @@ namespace SEMCP
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(180, 363);
+            this.btnLogin.Location = new System.Drawing.Point(171, 316);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(298, 41);
             this.btnLogin.TabIndex = 29;
@@ -570,7 +572,7 @@ namespace SEMCP
             // 
             this.lbPasswordLogin.AutoSize = true;
             this.lbPasswordLogin.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbPasswordLogin.Location = new System.Drawing.Point(173, 220);
+            this.lbPasswordLogin.Location = new System.Drawing.Point(171, 190);
             this.lbPasswordLogin.Margin = new System.Windows.Forms.Padding(0);
             this.lbPasswordLogin.Name = "lbPasswordLogin";
             this.lbPasswordLogin.Size = new System.Drawing.Size(90, 19);
@@ -581,7 +583,7 @@ namespace SEMCP
             // txtPasswordLogin
             // 
             this.txtPasswordLogin.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtPasswordLogin.Location = new System.Drawing.Point(177, 244);
+            this.txtPasswordLogin.Location = new System.Drawing.Point(175, 214);
             this.txtPasswordLogin.Name = "txtPasswordLogin";
             this.txtPasswordLogin.Size = new System.Drawing.Size(301, 27);
             this.txtPasswordLogin.TabIndex = 26;
@@ -591,7 +593,7 @@ namespace SEMCP
             // 
             this.lbUsuarioLogin.AutoSize = true;
             this.lbUsuarioLogin.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbUsuarioLogin.Location = new System.Drawing.Point(173, 151);
+            this.lbUsuarioLogin.Location = new System.Drawing.Point(171, 121);
             this.lbUsuarioLogin.Margin = new System.Windows.Forms.Padding(0);
             this.lbUsuarioLogin.Name = "lbUsuarioLogin";
             this.lbUsuarioLogin.Size = new System.Drawing.Size(63, 19);
@@ -602,7 +604,7 @@ namespace SEMCP
             // txtUsuarioLogin
             // 
             this.txtUsuarioLogin.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUsuarioLogin.Location = new System.Drawing.Point(177, 175);
+            this.txtUsuarioLogin.Location = new System.Drawing.Point(175, 145);
             this.txtUsuarioLogin.Name = "txtUsuarioLogin";
             this.txtUsuarioLogin.Size = new System.Drawing.Size(301, 27);
             this.txtUsuarioLogin.TabIndex = 25;
@@ -616,6 +618,7 @@ namespace SEMCP
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -651,7 +654,6 @@ namespace SEMCP
         private System.Windows.Forms.TextBox txtUsuarioLogin;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel Panel_RP;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.GroupBox gbRC;
@@ -681,5 +683,6 @@ namespace SEMCP
         private System.Windows.Forms.Label lbNombres;
         private System.Windows.Forms.TextBox txtNombres;
         private System.Windows.Forms.Button btnInvitado;
+        private System.Windows.Forms.Label lbTitulo;
     }
 }

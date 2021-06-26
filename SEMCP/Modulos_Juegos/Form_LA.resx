@@ -1,0 +1,115 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="labelInfo.Text" xml:space="preserve">
+    <value>El ejercicio consiste en mostrar una lista de artículos por un periodo tiempo para poder
+memorizarlos, luego seleccioná los artículos que recuerdes, si aciertas a los artículos de
+la lista pasaras de nivel, si no termina el ejercicio.
+
+
+El objetivo es tratar de memorizar la máxima cantidad de artículos tomando en cuenta
+que cada nivel va aumentado la lista.
+</value>
+  </data>
+</root>

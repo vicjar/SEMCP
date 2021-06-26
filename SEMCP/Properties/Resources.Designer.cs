@@ -180,6 +180,15 @@ namespace SEMCP.Properties {
             }
         }
 
+        internal static System.Drawing.Bitmap sharp_task_alt_black_24dp1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("sharp_task_alt_black_24dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
         internal static System.Drawing.Bitmap gradient
         {
             get
@@ -197,6 +206,231 @@ namespace SEMCP.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        internal static System.Drawing.Bitmap clock
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("clock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
         
+        internal static System.Drawing.Bitmap carta_volteada
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_volteada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_circulo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_circulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_engarne
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_engarne", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_x
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_e4
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_e4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_estrella
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_estrella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_corazon
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_corazon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_triangulo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_triangulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_rombo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_rombo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_pentagono
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_pentagono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap carta_cuadrado
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("carta_cuadrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap fondo
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap profile___1335_1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("profile___1335_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap angryimg__2_
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("angryimg__2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap logo1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap ama2
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("ama2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap ama1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("ama1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap roj2
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("roj2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap roj1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("roj1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap azu1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("azu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap azu2
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("azu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap ver
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("ver", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap ver2
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("ver2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap baseline_games_black_48dp
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("baseline_games_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

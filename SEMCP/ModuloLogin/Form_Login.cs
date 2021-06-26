@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using SEMCP.Clases;
+using System.Text.RegularExpressions;
 
 namespace SEMCP
 {
@@ -81,7 +82,7 @@ namespace SEMCP
 
             if (txtNombres.Text.Length == 0) return false;
             if (txtApellidos.Text.Length == 0) return false;
-            if (txtCorreo.Text.Length == 0) return false;
+            if (txtCorreo.Text.Length == 0 && Verificar_Correo(txtCorreo.Text)) return false;
             if (txtPassword.Text.Length <= 4) return false;
             if (txtUsuario.Text.Length <= 2) return false;
             if (ComSexo.Text == "Selecciona") return false;
@@ -194,8 +195,8 @@ namespace SEMCP
 
         private void btnInvitado_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola Usuario Invitado, estas a punto de entrar al sistema pero sin tener una cuenta. \n " +
-                "El progreso que realices no se guarda hasta que tengas un cuenta.\n Gracias. ", "SEMCP",
+            MessageBox.Show("Hola Usuario Invitado, estas a punto de entrar al sistema pero sin tener una cuenta." +
+                "El progreso que realices no se guarda hasta que tengas un cuenta.\n\n Gracias. ", "SEMCP",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             Usuario Invitado = new Usuario();
@@ -209,6 +210,14 @@ namespace SEMCP
             this.Hide();
             fm.ShowDialog();
             this.Close();
+        }
+
+        private bool Verificar_Correo(String correo)
+        {
+            String expresion  = "\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
+            if (Regex.IsMatch(correo, expresion)) return true;
+            else return false;
+            
         }
     }
 }
