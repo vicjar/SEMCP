@@ -7,6 +7,10 @@ using System.Text;
 using System.Windows.Forms;
 namespace SEMCP
 {
+    
+    /// <summary>
+    /// Componente que similar un carta del modulo de memoroma
+    /// </summary>
     public class Casilla : PictureBox
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]

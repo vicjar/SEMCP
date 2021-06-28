@@ -6,7 +6,10 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace SEMCP
-{
+{   
+    /// <summary>
+    /// Panel con bordes redondos.
+    /// </summary>
     class BC : Panel 
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]

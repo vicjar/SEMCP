@@ -7,6 +7,10 @@ using System.Threading;
 
 namespace SEMCP
 {
+
+    /// <summary>
+    /// Clase perteneciente a la programación del modulo de memorama.
+    /// </summary>
     public class Memorama
     {
         public Casilla c1, c2;

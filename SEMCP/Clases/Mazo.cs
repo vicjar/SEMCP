@@ -9,6 +9,9 @@ using System.ComponentModel;
 
 namespace SEMCP
 {
+    /// <summary>
+    /// Clase perteneciente a la programación del modulo de conjunto de cartas.
+    /// </summary>
     public class Mazo: INotifyPropertyChanged
     {
 

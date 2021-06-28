@@ -7,8 +7,12 @@ using System.Windows.Forms;
 
 namespace SEMCP.Clases
 {
+    /// <summary>
+    /// Clase conexión con la base de datos.
+    /// </summary>
     public class ConexionBD
     {
+
         public String connetionString;
         public String Mensaje;
         public SqlConnection connetion;

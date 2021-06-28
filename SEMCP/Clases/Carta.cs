@@ -7,6 +7,9 @@ using System.Resources;
 
 namespace SEMCP
 {
+    /// <summary>
+    /// Componente que similar un carta del modulo de conjunto de cartas
+    /// </summary>
     class Carta : PictureBox
     {
         private int x;

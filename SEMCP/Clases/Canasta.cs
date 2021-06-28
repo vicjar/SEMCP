@@ -4,6 +4,9 @@ using System.Text;
 
 namespace SEMCP
 {
+    /// <summary>
+    /// Clase perteneciente a la programación del modulo de Lista de artículos.
+    /// </summary>
     public class Canasta
     {
         // Clase Canasta - Lista de Articulos

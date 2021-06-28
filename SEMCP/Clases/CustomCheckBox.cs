@@ -8,6 +8,9 @@ using SEMCP.Properties;
 
 namespace SEMCP
 {
+    /// <summary>
+    /// Chechbox modificado para el modulo de Lista de artículos. 
+    /// </summary>
     public class CustomCheckBox : CheckBox
     {
         public CustomCheckBox()

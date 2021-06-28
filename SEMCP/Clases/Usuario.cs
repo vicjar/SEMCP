@@ -6,6 +6,9 @@ using System.Windows.Forms;
 
 namespace SEMCP.Clases
 {
+    /// <summary>
+    /// Clase Usuario.
+    /// </summary>
     public class Usuario
     {
         public int Id,Sexo,Edad,Tipo;
@@ -16,7 +19,12 @@ namespace SEMCP.Clases
         public Usuario(ConexionBD cnn) {
             conexion = cnn;
         }
-
+        /// <summary>
+        /// Registra para el login del usuario.
+        /// </summary>
+        /// <param name="U">Nombre del Usuario</param>
+        /// <param name="P">Contrasena</param>
+        /// <returns></returns>
         public bool login(String U, String P) {
             bool validar = true;
           
@@ -61,7 +69,11 @@ namespace SEMCP.Clases
 
 
 
-
+        /// <summary>
+        /// Método de búsqueda de usuario por medio de su Id
+        /// </summary>
+        /// <param name="id">Id del usuario</param>
+        /// <returns></returns>
         public bool Buscar(String id) {
             bool validar = true;
 
@@ -107,6 +119,11 @@ namespace SEMCP.Clases
             return validar;
 
         }
+
+        /// <summary>
+        /// Registra los datos de las propiedades de este objeto como un nuevo usuario.
+        /// </summary>
+        /// <returns></returns>
         public bool Registar() {
 
             bool valido = true;
@@ -129,6 +146,13 @@ namespace SEMCP.Clases
             }
             return valido;
         }
+
+        /// <summary>
+        /// Eliminar al usuario de la base de datos.
+        /// </summary>
+        /// <param name="Id">Id del usuario</param>
+        /// <returns></returns>
+
         public bool Eliminar(String Id) {
 
             bool valido = true;
@@ -152,6 +176,12 @@ namespace SEMCP.Clases
             }
             return valido;
         }
+
+        /// <summary>
+        /// Actualizar los datos del usuario.
+        /// </summary>
+        /// <returns></returns>
+
         public bool Actulizar() {
 
             bool valido = true;
@@ -176,6 +206,13 @@ namespace SEMCP.Clases
             }
             return valido;
         }
+
+        /// <summary>
+        /// Método donde puede restablecer la contraseña.
+        /// </summary>
+        /// <param name="U">Nombre del Usuario</param>
+        /// <param name="P">Nueva contraseña</param>
+        /// <returns></returns>
         public bool Restablecer_Password(String U, String P) {
 
                 bool valido = true;
@@ -202,6 +239,12 @@ namespace SEMCP.Clases
             
         }
 
+        /// <summary>
+        /// Registra los resultados de los ejercicios.
+        /// </summary>
+        /// <param name="puntaje">Puntaje obtenidos de los ejercicios</param>
+        /// <param name="juego">Id del juego</param>
+        /// <returns></returns>
         public bool Registrar_Resultados(int puntaje, int juego) {
 
                 bool valido = true;
